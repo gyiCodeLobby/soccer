@@ -1,0 +1,16 @@
+var fouls = {};
+fouls.aguero = 0;
+fouls.bale = 0;
+fouls.lewandowski = 0;
+fouls.reus = 0;
+console.log(fouls);
+fouls.reus += 2;
+fouls.lewandowski +=4;
+fouls.aguero += 2;
+fouls.bale += 1;
+console.log(fouls);
+fouls.reus += 1;
+fouls.aguero += 3;
+fouls.bale += 4;
+fouls.lewandowski += 3;
+console.log(fouls);
